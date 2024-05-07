@@ -69,28 +69,7 @@ cursor: pointer;
     object-fit: cover;
     object-position: center;
 }
-.contact_link {
-width: 151px;
-height: 40px;
-gap: 10px;
-border-radius: 6px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
-background: transparent;
-border: 1px solid #174050;
-}
-.contact_link a button{
-     font-size: 12px;
-    font-weight: 400;
-    padding: 7px 16px 7px 16px;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    line-height: 24px;
-    text-align: center;
-    color: #174050;
 
-}
 .selections{
     display: flex;
     justify-content: space-between;
