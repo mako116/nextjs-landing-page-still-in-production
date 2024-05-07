@@ -70,39 +70,6 @@ cursor: pointer;
     object-position: center;
 }
 
-.selections{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-}
-
-.selecting{
-    display: flex;
-    align-items: center;
-    width: 124px;
-height: 36px;
-gap: 12px;
-opacity: 0px;
-padding:0 10px;
-
-}
-
-.selecting select {
-    border: none;
-    width: 76px;
-    height: 24px;
-    background: transparent;
-    /* padding: 18px 14px 18px 14px; */
-    border-radius: 10px;
-    gap: 6px;
- font-family: "SF Pro";
-/* font-size: 14px; */
-font-weight: 400;
-/* line-height: 24px; */
-text-align: center;
-
-}
  
 .flag{
     width: 36px;
