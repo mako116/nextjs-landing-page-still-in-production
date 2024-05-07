@@ -49,39 +49,8 @@
     transition: 0.5s ease;
 
   }
-  .hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-  }
   
-  .line {
-    width: 25px;
-    transition: 0.5s ease;
-
-    height: 3px;
-    background-color: #333;
-    margin: 5px;
-    transition: all 0.3s ease;
-  }
   
-  .line.open:nth-child(1) {
-    transition: 0.5s ease;
-
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-  
-  .line.open:nth-child(2) {
-    opacity: 0;
-    /* transform: rotate(-0deg) translate(4px, 0px); */
-
-  }
-  
-  .line.open:nth-child(3) {
-    transition: 0.5s ease;
-
-    transform: rotate(-45deg) translate(5.5px, -7px);
-  }
 ul{
     display: flex;
     justify-content: space-between;
